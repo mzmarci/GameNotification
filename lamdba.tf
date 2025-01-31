@@ -52,7 +52,7 @@ resource "aws_lambda_function" "weather_data_collector" {
   environment {
     variables = {
       AWS_BUCKET_NAME     = aws_s3_bucket.weather_data.id
-      OPENWEATHER_API_KEY = "********" # Replace with your actual API key
+      OPENWEATHER_API_KEY = "******" # Replace with your actual API key
       SNS_TOPIC_ARN       = aws_sns_topic.weather_notifications.arn
     }
   }

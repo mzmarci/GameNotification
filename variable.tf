@@ -11,12 +11,12 @@ variable "versioning_bucket" {
 
 variable "email_address" {
   description = "Email address for SNS subscription"
-  default     = "****"
+  default     = "*****"
 }
 
 variable "sms_notification" {
   description = "SMS notification for SNS subscription"
-  default     = "****"
+  default     = "*****"
 }
 
 
